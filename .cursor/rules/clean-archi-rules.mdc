@@ -1,0 +1,9 @@
+---
+description: when you need to work on a repository, service, use case...
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+- repositories should not contain business logic
+- use cases contain business logic and they should not leak the repository types and data hense we should use DTO in the use case layer.

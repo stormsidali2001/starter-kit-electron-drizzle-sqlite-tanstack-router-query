@@ -1,0 +1,11 @@
+---
+description: when addressing a problem
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- Always priotize reusability and modularity.
+- Always use custom hooks for business logic, the only job of a react component is rendering.
+- Use tanstack react query for fetching, the queries should be wrapped in a custom hook
